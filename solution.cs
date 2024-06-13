@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-
-class Program
-{
-    static void Main(string[] args)
+static List<string> GetPermutations(string input)
     {
-        Console.WriteLine("Enter a string or list of numbers:");
-        string input = Console.ReadLine();
+        var permutations = new List<string>();
+        if (input.Length == 1)
+        {
+            permutations.Add(input);
+        }
     }
-}
